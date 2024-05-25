@@ -1,0 +1,14 @@
+*,*::after,*::before{
+    margin:0; //To remove the dummy margin given by the browswer
+    padding:0;
+    box-sizing: inherit;//to set the properties close to the box ore container
+}
+
+html{/*root*/
+    font-size: 62.5%;/*10/16 *100*/
+    /* font-size: 10px; */
+}
+
+body{
+    box-sizing: border-box;
+}
